@@ -1,0 +1,96 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "stageClickPoints": {
+    "1": [
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 }
+    ],
+    "2": [
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 }
+    ],
+    "3": [
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 }
+    ]
+  },
+  "nodeNameRegion": { "x": 0, "y": 0, "width": 0, "height": 0 },
+  "ocrConfidenceThreshold": 0.8,
+  "relaxedExactConfidenceThreshold": 0.22,
+  "relaxedExactMinimumNameLength": 3,
+  "initialSettleSeconds": 0.15,
+  "stabilityPollSeconds": 0.05,
+  "stabilityTimeoutSeconds": 1.5,
+  "stabilityMeanDifferenceThreshold": 2.0,
+  "fuzzyMinimumConfidence": 0.18,
+  "fuzzyMaximumDistance": 2,
+  "fuzzyLongNameMinimumLength": 5,
+  "fuzzyLongNameMaximumDistance": 3,
+  "fuzzyMinimumNameLength": 3,
+  "fuzzyMinimumConsensusCount": 2,
+  "automation": {
+    "craftingStartPoints": [
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 },
+      { "x": 0, "y": 0 }
+    ],
+    "primaryMaterialPoint": { "x": 0, "y": 0 },
+    "primaryUnlockPoint": { "x": 0, "y": 0 },
+    "candidateReadyPoints": {
+      "1": { "x": 0, "y": 0 },
+      "2": { "x": 0, "y": 0 },
+      "3": { "x": 0, "y": 0 }
+    },
+    "nodeConfirmPoints": {
+      "1": { "x": 0, "y": 0 },
+      "2": { "x": 0, "y": 0 },
+      "3": { "x": 0, "y": 0 }
+    },
+    "addMaterialPoint": { "x": 0, "y": 0 },
+    "additionalMaterialPoint": { "x": 0, "y": 0 },
+    "unlockPoints": {
+      "2": { "x": 0, "y": 0 },
+      "3": { "x": 0, "y": 0 }
+    },
+    "beginCraftingPoint": { "x": 0, "y": 0 },
+    "confirmCraftingPoint": { "x": 0, "y": 0 },
+    "craftingAnimationSkipPoint": { "x": 0, "y": 0 },
+    "collectAllPoint": { "x": 0, "y": 0 },
+    "collectConfirmPoint": { "x": 0, "y": 0 },
+    "resultCollectAllPoint": { "x": 0, "y": 0 },
+    "resultDismissPoint": { "x": 0, "y": 0 },
+    "waits": {
+      "startupSeconds": 5.0,
+      "afterCraftingSlotSeconds": 1.0,
+      "afterPrimaryMaterialSeconds": 0.3,
+      "afterPrimaryUnlockSeconds": 1.0,
+      "afterCandidateReadySeconds": 0.5,
+      "afterRecommendedNodeSeconds": 0.2,
+      "afterNodeConfirmBeforeRepeatSeconds": 0.5,
+      "afterNodeConfirmSeconds": 1.0,
+      "afterAddMaterialSeconds": 0.5,
+      "materialHoldSeconds": 4.0,
+      "afterMaterialHoldSeconds": 0.3,
+      "afterNodeUnlockSeconds": 1.0,
+      "afterCraftingStartSeconds": 1.0,
+      "afterCraftingConfirmBeforeSkipSeconds": 0.5,
+      "afterCraftingConfirmSeconds": 2.0,
+      "betweenCraftsSeconds": 1.0,
+      "afterCollectAllSeconds": 1.0,
+      "afterCollectConfirmSeconds": 1.0,
+      "afterResultCollectAllSeconds": 0.0,
+      "resultDisplaySeconds": 2.0,
+      "afterResultDismissSeconds": 1.0
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "stageClickPoints": {
+    "1": [
+      {
+        "x": 813,
+        "y": 586
+      },
+      {
+        "x": 940,
+        "y": 562
+      },
+      {
+        "x": 1051,
+        "y": 503
+      },
+      {
+        "x": 1144,
+        "y": 421
+      },
+      {
+        "x": 1207,
+        "y": 309
+      }
+    ],
+    "2": [
+      {
+        "x": 759,
+        "y": 236
+      },
+      {
+        "x": 872,
+        "y": 301
+      },
+      {
+        "x": 954,
+        "y": 393
+      },
+      {
+        "x": 1011,
+        "y": 502
+      },
+      {
+        "x": 1038,
+        "y": 629
+      }
+    ],
+    "3": [
+      {
+        "x": 793,
+        "y": 590
+      },
+      {
+        "x": 859,
+        "y": 478
+      },
+      {
+        "x": 948,
+        "y": 393
+      },
+      {
+        "x": 1058,
+        "y": 336
+      },
+      {
+        "x": 1187,
+        "y": 313
+      }
+    ]
+  },
+  "nodeNameRegion": {
+    "x": 1453,
+    "y": 247,
+    "width": 450,
+    "height": 57
+  },
+  "ocrConfidenceThreshold": 0.8,
+  "relaxedExactConfidenceThreshold": 0.22,
+  "relaxedExactMinimumNameLength": 3,
+  "initialSettleSeconds": 0.15,
+  "stabilityPollSeconds": 0.05,
+  "stabilityTimeoutSeconds": 1.5,
+  "stabilityMeanDifferenceThreshold": 2.0,
+  "fuzzyMinimumConfidence": 0.18,
+  "fuzzyMaximumDistance": 2,
+  "fuzzyLongNameMinimumLength": 5,
+  "fuzzyLongNameMaximumDistance": 3,
+  "fuzzyMinimumNameLength": 3,
+  "fuzzyMinimumConsensusCount": 2,
+  "automation": {
+    "craftingStartPoints": [
+      {
+        "x": 1598,
+        "y": 277
+      },
+      {
+        "x": 1598,
+        "y": 405
+      },
+      {
+        "x": 1598,
+        "y": 533
+      }
+    ],
+    "primaryMaterialPoint": {
+      "x": 1546,
+      "y": 235
+    },
+    "primaryUnlockPoint": {
+      "x": 1741,
+      "y": 692
+    },
+    "candidateReadyPoints": {
+      "1": {
+        "x": 1085,
+        "y": 589
+      },
+      "2": {
+        "x": 1025,
+        "y": 238
+      },
+      "3": {
+        "x": 1005,
+        "y": 593
+      }
+
+    },
+    "nodeConfirmPoints": {
+      "1": {
+        "x": 1736,
+        "y": 689
+      },
+      "2": {
+        "x": 1736,
+        "y": 689
+      },
+      "3": {
+        "x": 1736,
+        "y": 689
+      }
+    },
+    "addMaterialPoint": {
+      "x": 1456,
+      "y": 692
+    },
+    "additionalMaterialPoint": {
+      "x": 1675,
+      "y": 241
+    },
+    "unlockPoints": {
+      "2": {
+        "x": 1736,
+        "y": 689
+      },
+      "3": {
+        "x": 1736,
+        "y": 689
+      }
+    },
+    "beginCraftingPoint": {
+      "x": 1736,
+      "y": 689
+    },
+    "confirmCraftingPoint": {
+      "x": 1405,
+      "y": 533
+    },
+    "craftingAnimationSkipPoint": {
+      "x": 1400,
+      "y": 400
+    },
+    "collectAllPoint": {
+      "x": 1761,
+      "y": 650
+    },
+    "collectConfirmPoint": {
+      "x": 1405,
+      "y": 533
+    },
+    "resultCollectAllPoint": {
+      "x": 1761,
+      "y": 650
+    },
+    "resultDismissPoint": {
+      "x": 1337,
+      "y": 676
+    },
+    "waits": {
+      "startupSeconds": 3.0,
+      "afterCraftingSlotSeconds": 2.0,
+      "afterPrimaryMaterialSeconds": 0.3,
+      "afterPrimaryUnlockSeconds": 4.0,
+      "afterCandidateReadySeconds": 0.5,
+      "afterRecommendedNodeSeconds": 0.2,
+      "afterNodeConfirmBeforeRepeatSeconds": 0.5,
+      "afterNodeConfirmSeconds": 2.0,
+      "afterAddMaterialSeconds": 1.0,
+      "materialHoldSeconds": 4.0,
+      "afterMaterialHoldSeconds": 0.3,
+      "afterNodeUnlockSeconds": 4.0,
+      "afterCraftingStartSeconds": 1.0,
+      "afterCraftingConfirmBeforeSkipSeconds": 0.5,
+      "afterCraftingConfirmSeconds": 3.0,
+      "betweenCraftsSeconds": 1.0,
+      "afterCollectAllSeconds": 1.0,
+      "afterCollectConfirmSeconds": 1.0,
+      "afterResultCollectAllSeconds": 0.0,
+      "resultDisplaySeconds": 2.0,
+      "afterResultDismissSeconds": 1.0
+    }
+  }
+}

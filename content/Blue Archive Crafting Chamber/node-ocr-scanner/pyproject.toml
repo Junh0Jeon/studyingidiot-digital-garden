@@ -1,0 +1,30 @@
+[project]
+name = "blue-archive-node-ocr-scanner"
+version = "0.1.0"
+description = "Extract Blue Archive crafting node IDs by clicking nodes and OCR-reading their names."
+requires-python = ">=3.10"
+dependencies = [
+    "easyocr>=1.7,<2",
+    "mss>=9,<11",
+    "numpy>=1.26,<3",
+    "opencv-python-headless>=4.9,<5",
+    "pyautogui>=0.9.54,<1",
+]
+
+[project.scripts]
+scan-crafting-nodes = "crafting_ocr.cli:main"
+automate-crafting = "crafting_ocr.automation_cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/crafting_ocr"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
